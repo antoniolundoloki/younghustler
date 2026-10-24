@@ -385,7 +385,7 @@ const YH_PRODUCTS = [
     preco: 15000,
     descricao: "Hoodie premium em moletão pesado, capuz forrado, bolso canguru e bordado YH no peito. A peça mais icónica da coleção — conforto e presença em qualquer ocasião.",
     imagens: [
-      "images/produtos/casaco1-verde.png"],
+      "images/produtos/casaco1-preto.png"],
     cores: [
       {nome:"Verde", hex:"#228B22"}
     ],
