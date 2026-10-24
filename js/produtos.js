@@ -33,7 +33,7 @@ const YH_PRODUCTS = [
     categoria: "Regatas",
     preco: 6000,
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
-    imagens: ["images/produtos/tshirt-oversized-branca.jpg", "images/produtos/tshirt-branca-flat.png"],
+    imagens: ["images/produtos/regata1-branco.png", "images/produtos/regata1-preto.png", "images/produtos/regata1-bege.png", "images/produtos/regata1-castanho.png", "images/produtos/regata1-azul.png", "images/produtos/regata1-verde.png", "images/produtos/regata1-cinza.png"],
     cores: [
       {nome:"Branco", hex:"#f5f5f5"},
       {nome:"Preto", hex:"#111111"},
