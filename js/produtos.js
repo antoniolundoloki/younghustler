@@ -180,7 +180,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-preta.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Preto", hex:"#111111"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -196,7 +196,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-bege.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Bege", hex:"#ffeaea"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -212,7 +212,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-cinza.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Cinza", hex:"#d3d3d3"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -228,7 +228,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-verde.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Verde", hex:"#228B22"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -244,7 +244,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-castanho.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Castanho", hex:"#8B4513"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -260,7 +260,7 @@ const YH_PRODUCTS = [
     descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
     imagens: ["images/produtos/tshirt1-azul.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Azul", hex:"#0000ff"}
     ],
     tamanhos: ["XS","S","M","L","XL","XXL"],
     stock: 42,
@@ -273,48 +273,113 @@ const YH_PRODUCTS = [
 
     // ***** Zona das camisas Regadas de todas as cores
 
+    {
+    id: 15,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-preto.png"],
+    cores: [
+      {nome:"Preto", hex:"#111111"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
 
+  {
+    id: 16,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-bege.png"],
+    cores: [
+      {nome:"Bege", hex:"#ffeaea"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
 
+  {
+    id: 17,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-azul.png"],
+    cores: [
+      {nome:"Azul", hex:"#0000ff"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
+
+  {
+    id: 18,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-castanho.png"],
+    cores: [
+      {nome:"Castanho", hex:"#8B4513"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
+
+  {
+    id: 19,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-cinza.png"],
+    cores: [
+      {nome:"Cinza", hex:"#d3d3d3"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
+
+  {
+    id: 20,
+    nome: "T-Shirt Regatas YH",
+    categoria: "Regatas",
+    preco: 6000,
+    descricao: "T-shirt em algodão 100% penteado, corte reto e serigrafia do logótipo YH no peito. A base do guarda-roupa Young Hustler — simples, resistente e versátil para o dia a dia.",
+    imagens: ["images/produtos/regata1-verde.png"],
+    cores: [
+      {nome:"Verde", hex:"#228B22"}
+    ],
+    tamanhos: ["XS","S","M","L","XL","XXL"],
+    stock: 42,
+    avaliacao: 4.8,
+    destaque: true,
+    novo: false
+  },
 
 
   // ***** Zona dos Casacos de todas as cores
 
   {
-    id: 15,
-    nome: "Casaco YH (Hoodie)",
-    categoria: "Casacos",
-    preco: 15000,
-    descricao: "Hoodie premium em moletão pesado, capuz forrado, bolso canguru e bordado YH no peito. A peça mais icónica da coleção — conforto e presença em qualquer ocasião.",
-    imagens: [
-      "images/produtos/casaco1-preto.png"],
-    cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
-    ],
-    tamanhos: ["S","M","L","XL","XXL"],
-    stock: 18,
-    avaliacao: 5,
-    destaque: true,
-    novo: false
-  },
-  {
-    id: 16,
-    nome: "Casaco YH (Hoodie)",
-    categoria: "Casacos",
-    preco: 15000,
-    descricao: "Hoodie premium em moletão pesado, capuz forrado, bolso canguru e bordado YH no peito. A peça mais icónica da coleção — conforto e presença em qualquer ocasião.",
-    imagens: [
-      "images/produtos/casaco1-bege.png"],
-    cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
-    ],
-    tamanhos: ["S","M","L","XL","XXL"],
-    stock: 18,
-    avaliacao: 5,
-    destaque: true,
-    novo: false
-  },
-  {
-    id: 17,
+    id: 21,
     nome: "Casaco YH (Hoodie)",
     categoria: "Casacos",
     preco: 15000,
@@ -322,7 +387,41 @@ const YH_PRODUCTS = [
     imagens: [
       "images/produtos/casaco1-verde.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Verde", hex:"#228B22"}
+    ],
+    tamanhos: ["S","M","L","XL","XXL"],
+    stock: 22,
+    avaliacao: 5,
+    destaque: true,
+    novo: false
+  },
+  {
+    id: 22,
+    nome: "Casaco YH (Hoodie)",
+    categoria: "Casacos",
+    preco: 15000,
+    descricao: "Hoodie premium em moletão pesado, capuz forrado, bolso canguru e bordado YH no peito. A peça mais icónica da coleção — conforto e presença em qualquer ocasião.",
+    imagens: [
+      "images/produtos/casaco1-bege.png"],
+    cores: [
+      {nome:"Bege", hex:"#ffeaea"}
+    ],
+    tamanhos: ["S","M","L","XL","XXL"],
+    stock: 24,
+    avaliacao: 5,
+    destaque: true,
+    novo: false
+  },
+  {
+    id: 23,
+    nome: "Casaco YH (Hoodie)",
+    categoria: "Casacos",
+    preco: 15000,
+    descricao: "Hoodie premium em moletão pesado, capuz forrado, bolso canguru e bordado YH no peito. A peça mais icónica da coleção — conforto e presença em qualquer ocasião.",
+    imagens: [
+      "images/produtos/casaco1-verde.png"],
+    cores: [
+      {nome:"Verde", hex:"#228B22"}
     ],
     tamanhos: ["S","M","L","XL","XXL"],
     stock: 18,
@@ -331,7 +430,7 @@ const YH_PRODUCTS = [
     novo: false
   },
   {
-    id: 18,
+    id: 24,
     nome: "Casaco YH (Hoodie)",
     categoria: "Casacos",
     preco: 15000,
@@ -339,7 +438,7 @@ const YH_PRODUCTS = [
     imagens: [
       "images/produtos/casaco1-castanho.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Castanho", hex:"#8B4513"}
     ],
     tamanhos: ["S","M","L","XL","XXL"],
     stock: 18,
@@ -348,7 +447,7 @@ const YH_PRODUCTS = [
     novo: false
   },
   {
-    id: 19,
+    id: 25,
     nome: "Casaco YH (Hoodie)",
     categoria: "Casacos",
     preco: 15000,
@@ -356,7 +455,7 @@ const YH_PRODUCTS = [
     imagens: [
       "images/produtos/casaco1-azul.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Azul", hex:"#0000ff"}
     ],
     tamanhos: ["S","M","L","XL","XXL"],
     stock: 18,
@@ -365,7 +464,7 @@ const YH_PRODUCTS = [
     novo: false
   },
   {
-    id: 20,
+    id: 26,
     nome: "Casaco YH (Hoodie)",
     categoria: "Casacos",
     preco: 15000,
@@ -373,7 +472,7 @@ const YH_PRODUCTS = [
     imagens: [
       "images/produtos/casaco1-cinza.png"],
     cores: [
-      {nome:"Branco", hex:"#f5f5f5"}
+      {nome:"Cinza", hex:"#d3d3d3"}
     ],
     tamanhos: ["S","M","L","XL","XXL"],
     stock: 18,
